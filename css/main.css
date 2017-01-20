@@ -23,23 +23,24 @@ p a:hover {
 }
 header {
 	background: #40E0D0;
+	border: 1px solid #e7e7e7;
 	margin: 0 auto;
-	padding: 50px 0 50px;
+	padding: 50px 0 25px;
 	text-align: center;
 	width: 960px;
 }
 header a.logo {
 	display: block;
+	opacity: 0.5;
 	margin: 0 auto;
 	padding: 0;
 	width: 340px;
 }
-header a.logo img {
-	border: 0;
-	display: block;
-	margin: 0;
-	padding: 0;
+
+header a.logo:hover{
+	opacity: 1;
 }
+
 
 .active {
 	background-color: #0b0b30;
@@ -47,6 +48,7 @@ header a.logo img {
 }
 nav > ul {
 	list-style-type: none;
+	border: 1px solid #e7e7e7;
 	margin: 0 auto;
 	padding: 0;
 	width: 960px;
@@ -61,6 +63,10 @@ nav > ul li {
 	border-right: 1px solid #bbb;
 	width: 150px;
 	height: 20px;
+}
+
+nav > ul li: first-child {
+	border-left:  1px solid #bbb;
 }
 
 nav > ul li a:hover {
@@ -307,35 +313,37 @@ footer div ul li {
 	width: 44px;
 }
 footer div ul li a {
-	background: url(../Assets/icons.jpg) no-repeat 0 0;
 	display: block;
 	height: 44px;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	text-indent: -99999px;
 	width: 44px;
 }
 footer div ul li #twitter {
-	background-position: 0 0;
+	background:url(../Assets/icons/icon-twitter.jpg);
 }
 footer div ul li #twitter:hover {
-	background-position: -44px 0;
+	background:url(../Assets/icons/icon-twitter-hover.jpg);
 }
 footer div ul li #facebook {
-	background-position: 0 -44px;
+	background:url(../Assets/icons/icon-facebook.jpg);
 }
 footer div ul li #facebook:hover {
-	background-position: -44px -44px;
+	background:url(../Assets/icons/icon-facebook-hover.jpg);
 }
 footer div ul li #googleplus {
-	background-position: 0 -88px;
+	background:url(../Assets/icons/icon-googleplus.jpg);
 }
 footer div ul li #googleplus:hover {
-	background-position: -44px -88px;
+	background:url(../Assets/icons/icon-googleplus-hover.jpg);
 }
 footer div ul li #pinterest {
-	background-position: 0 -132px;
+	background:url(../Assets/icons/icon-pinterest.jpg);
 }
 footer div ul li #pinterest:hover {
-	background-position: -44px -132px;
+	background:url(../Assets/icons/icon-pinterest-hover.jpg);
+}
+footer div ul li #soundcloud {
+	background:url(../Assets/icons/icon-sc-sm.png);
 }

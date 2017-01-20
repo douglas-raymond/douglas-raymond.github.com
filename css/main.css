@@ -76,7 +76,7 @@ nav > ul li a:hover {
 
 body {
 	margin: 0;
-	padding: 0 0 30px;
+	padding: 0;
 	text-align: center;
 }
 body h1 {
@@ -281,7 +281,7 @@ body form #send:hover {
 footer {
 	background: #252525;
 	margin: 0;
-	padding: 36px 0 42px;
+	padding: 0;
 }
 footer div {
 	margin: 0 auto;

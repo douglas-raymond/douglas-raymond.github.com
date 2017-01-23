@@ -302,7 +302,7 @@ footer div ul {
 	margin: 0;
 	overflow: hidden;
 	padding: 0;
-	width: 256px;
+	width: 150px;
 }
 footer div ul li {
 	display: block;
@@ -320,30 +320,27 @@ footer div ul li a {
 	text-indent: -99999px;
 	width: 44px;
 }
-footer div ul li #twitter {
-	background:url(../Assets/icons/icon-twitter.jpg);
-}
-footer div ul li #twitter:hover {
-	background:url(../Assets/icons/icon-twitter-hover.jpg);
-}
 footer div ul li #facebook {
-	background:url(../Assets/icons/icon-facebook.jpg);
+	background:url(../Assets/icons/icon-facebook.png);
 }
 footer div ul li #facebook:hover {
-	background:url(../Assets/icons/icon-facebook-hover.jpg);
+	background:url(../Assets/icons/icon-facebook-hover.png);
 }
 footer div ul li #googleplus {
-	background:url(../Assets/icons/icon-googleplus.jpg);
+	background:url(../Assets/icons/icon-googleplus.png);
 }
 footer div ul li #googleplus:hover {
-	background:url(../Assets/icons/icon-googleplus-hover.jpg);
+	background:url(../Assets/icons/icon-googleplus-hover.png);
 }
-footer div ul li #pinterest {
-	background:url(../Assets/icons/icon-pinterest.jpg);
+footer div ul li #github {
+	background:url(../Assets/icons/icon-github.png);
 }
-footer div ul li #pinterest:hover {
-	background:url(../Assets/icons/icon-pinterest-hover.jpg);
+footer div ul li #github:hover {
+	background:url(../Assets/icons/icon-github-hover.png);
 }
 footer div ul li #soundcloud {
-	background:url(../Assets/icons/icon-sc-sm.png);
+	background:url(../Assets/icons/icon-sc.png);
+}
+footer div ul li #soundcloud:hover {
+	background:url(../Assets/icons/icon-sc-hover.png);
 }

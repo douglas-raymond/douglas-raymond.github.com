@@ -22,7 +22,7 @@ p a:hover {
 	color: #898989;
 }
 header {
-	background: #40E0D0;
+	background: #3a507a;
 	border: 1px solid #e7e7e7;
 	margin: 0 auto;
 	padding: 50px 0 25px;
@@ -278,12 +278,18 @@ body form #send:hover {
 	color: #252525;
 	cursor: pointer;
 }
+body p {
+	margin: 0 auto;
+	padding: 0;
+	width: 960px;
+}
 footer {
-	background: #252525;
-	margin: 0;
+	bottom: 0;
+	margin: 0 auto;
 	padding: 0;
 }
 footer div {
+	background: #252525;
 	margin: 0 auto;
 	overflow: hidden;
 	padding: 0;
